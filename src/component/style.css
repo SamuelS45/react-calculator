@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.nav{
+    width: 100%;
+    height: 200px;
+    background-color: lightblue;
+}
+
+
+.dropdown{
+    display: none;
+}
+.droplink{
+    border: 2px solid black;
+    width: 100px;
+    
+}
+
+.droplink:hover .dropdown{
+    background-color: rgb(133, 133, 133);
+    display: block;
+}
+
+/* _________________________________________ */
+.btn{
+    /* padding: 1em; */
+    font-size: 1em;
+    width: 5em;
+    height: 5em;
+    margin: .5em;
+    border-radius: .5em;
+    /* background-color: lightblue; */
+    color: white;
+    background: #0F2027;  /* fallback for old browsers */
+    border: none;
+    transition: .5s;
+}
+
+.btn:hover{
+    /* background-color: lightgray; */
+    background: #0f20274b;
+}
+#container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* border: 2px solid black; */
+}
+#cal-container{
+    display: flex;
+    padding: .5em;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    border-radius: .5em;
+    background-color: none;
+    box-shadow: 0px 2px 15px rgb(0, 0, 0);
+}
+#num{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+#output{
+    display: flex;
+    flex-direction: column;
+}
+
+#display{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    border-radius: .5em;
+    margin: .2em;
+    border: 2px solid lightgray;
+    height: 4em;
+}
